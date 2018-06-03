@@ -1,0 +1,108 @@
+body {
+    line-height: 30px;
+    background-image: url(../images/train.jpg);
+    background-size: cover;
+    background-position: center;
+    color: black;
+    background-color: black;
+    width: 100%;
+    padding: 0px;
+    margin: auto 0;
+    overflow: auto;
+}
+
+* {
+    position: relative;
+    box-sizing: border-box;
+}
+
+* {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+h1 {
+    text-shadow: 2px 2px 2px yellow;
+}
+
+h1, h3, .panel-title, .panel-body {
+    color: aliceblue;
+}
+
+th, h2 {
+    color: lightblue !important;
+}
+
+tr:hover {
+    background: #000 !important;
+}
+
+tr:hover td {
+    background: rgba(105, 105, 105, .2) !important;
+    color: yellow !important;
+}
+
+td {
+    font-size: 13px !important;
+    font-weight: 80 !important;
+}
+
+label {
+    font-size: 14px;
+}
+
+button{
+    border-color: paleturquoise !important;
+}
+
+.container {
+    width: 100%;
+    max-width: 980px !important;
+    padding: 0px !important;
+}
+
+.jumbotron {
+    width: 100%;
+    background: rgb(105, 105, 105);
+    background: rgba(105, 105, 105, .5);    
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;  
+    border: 1px solid paleturquoise !important;
+    top:15px;
+}
+
+.panel-primary, input {
+    background-color: rgba(0,0,0,.5);
+    border-color: paleturquoise !important;
+    width: 100%;
+}
+
+.panel-primary{
+    min-height: 500px;
+}
+
+.panel-primary >.panel-heading {
+    color: aliceblue !important;
+    font-size: 20px;
+    border-color: paleturquoise !important;
+    background: rgb(105, 105, 105);
+    background: rgba(105, 105, 105, .5);    
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000; 
+}
+
+.panel-title, th, h2 {
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.panel-body, .panel-heading {
+    padding: 7px !important;
+}
+
+.milTime {
+    font-size: 11px !important;
+    line-height: 0px !important;
+}
+
+#freqDisplay, #nextDisplay {
+    text-align: center !important;
+}
